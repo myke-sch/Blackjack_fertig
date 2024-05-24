@@ -109,7 +109,7 @@ function rundeBeenden() {
                     img[0].parentNode.removeChild(img[0])
                 }
             }
-            actualPlayer = 0;
+            actualPlayer = 1;
             document.getElementById("actualPlayer").innerHTML = `Spieler ${actualPlayer} ist an der Reihe`
             spielerKarten = [
                 [],
